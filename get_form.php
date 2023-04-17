@@ -17,6 +17,8 @@ $length_censored = 'lunghezza testo: ' . strlen($censored) . ' caratteri';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style_get_form.css" />
+
 </head>
 <body>
     <h1>Ciao sono la pagina dopo</h1>
@@ -27,7 +29,6 @@ $length_censored = 'lunghezza testo: ' . strlen($censored) . ' caratteri';
             
             echo "<div>Testo: $censored</div>";
             echo "<div>$length_censored</div>";
-
         ?>
     </div>
 </body>
