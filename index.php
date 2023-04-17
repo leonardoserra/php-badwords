@@ -38,7 +38,7 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
                     <label for="censorship">Parola da censurare:</label>
                     <input name="censorship" type="text" id="censorship" placeholder="scrivi la parola da censurare..."/>
                 </div>
-                <input type="submit" />
+                <button >Esegui</button>
 
             </form>
         </main>
