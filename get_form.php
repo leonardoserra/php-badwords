@@ -21,7 +21,9 @@ $length_censored = 'lunghezza testo: ' . strlen($censored) . ' caratteri';
 
 </head>
 <body>
-    <h1>Ciao sono la pagina dopo</h1>
+    <header>
+        <h1>Ciao sono la pagina dopo</h1>
+    </header>
     <div>
         <?php
             echo "<div>Testo: $paragraph</div>";
