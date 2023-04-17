@@ -4,6 +4,8 @@ $paragraph = $_GET['paragraph'];
 $censorship = $_GET['censorship'];
 $length_paragraph = 'lunghezza testo: ' . strlen($paragraph) . ' caratteri';
 $censored = str_replace($censorship, '***', $paragraph);
+$length_censored = 'lunghezza testo: ' . strlen($censored) . ' caratteri';
+
 
 
 ?>
@@ -24,7 +26,7 @@ $censored = str_replace($censorship, '***', $paragraph);
             echo "<div>$length_paragraph</div>";
             
             echo "<div>Testo: $censored</div>";
-            echo "<div>$length_paragraph</div>";
+            echo "<div>$length_censored</div>";
 
         ?>
     </div>
