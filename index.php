@@ -20,7 +20,9 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Badwords Killer</title>
+        <link rel="stylesheet" href="./style/style.css" />
     </head>
+
     <body>
         <header>
             <h1>Badwords Killer</h1>
@@ -28,14 +30,15 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 
         <main>
             <form action="./get_form.php" method="GET">
-                <div>
-                    <label for="paragraph">Paragrafo:</label>
+                <div class="paragraph">
+                    <label  for="paragraph">Paragrafo:</label>
                     <input name="paragraph" type="text" id="paragraph" placeholder="scrivi un testo lungo..."/>
                 </div>
-                <div>
+                <div class="censorship">
                     <label for="censorship">Parola da censurare:</label>
                     <input name="censorship" type="text" id="censorship" placeholder="scrivi la parola da censurare..."/>
                 </div>
+                <input type="submit" />
 
             </form>
         </main>
